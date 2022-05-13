@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScorePieChart renders 1`] = `
+<div
+  style={
+    Object {
+      "height": 400,
+      "width": 400,
+    }
+  }
+>
+  <div
+    className="recharts-responsive-container"
+    style={
+      Object {
+        "height": "100%",
+        "maxHeight": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;

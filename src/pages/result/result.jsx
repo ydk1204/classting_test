@@ -80,11 +80,6 @@ const Result = ({ score, wrongList, startTime, endTime, setRetry }) => {
     }
     const milliSeconds = endTime - startTime;
 
-    console.log(Math.round((milliSeconds / (1000 * 60)) % 60));
-    console.log((milliSeconds / (1000 * 60)) % 60);
-
-    console.log(Math.round((milliSeconds / 1000) % 60));
-
     const hours = Math.floor((milliSeconds / (1000 * 60 * 60)) % 24);
     const minutes = Math.floor((milliSeconds / (1000 * 60)) % 60);
     const seconds = Math.floor((milliSeconds / 1000) % 60);

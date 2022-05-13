@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`note renders 1`] = `
+<div
+  className="mb-10 flex justify-center w-full"
+>
+  <div
+    className="border-[2px] rounded-md w-full mx-4 h-full flex-col justify-center items-center bg-slate-50 border-black mb-10 md:mx-0 md:w-3/4"
+  >
+    <div
+      className="border-b-[2px] border-black h-[15%] text-lg flex justify-between items-center bg-slate-900/80 text-white"
+    >
+      <div
+        className="flex ml-4"
+      >
+        <p
+          className="mr-2"
+        >
+          난이도 :
+        </p>
+        <p
+          className="text-sky-500"
+        >
+          어려움
+        </p>
+      </div>
+    </div>
+    <p
+      className="m-4 h-[20%] text-xl"
+    >
+      Q. 
+      동물이 아닌 것은?
+    </p>
+    <div
+      className="m-4 h-[55%] border-2 border-black rounded-md bg-slate-700/60 md:h-[50%]"
+    >
+      <div
+        className="mx-2 h-[25%] flex justify-between items-center text-md font-semibold border-b-2 border-black"
+      >
+        <p>
+          보기 문항
+        </p>
+        <div
+          className="flex"
+        >
+          <p
+            className="rounded-md w-16 h-5 text-sm items-center flex justify-center cursor-default bg-blue-700 text-white"
+          >
+            정답
+          </p>
+        </div>
+      </div>
+      <div
+        className="h-[65%] grid grid-cols-1 gap-6 md:grid-cols-2"
+      >
+        <label
+          className="border-black border-2 rounded-md m-2 p-2 flex items-center bg-slate-700/50 cursor-default radioBox"
+        >
+          <input
+            name="animal"
+            type="radio"
+          />
+        </label>
+        <label
+          className="border-black border-2 rounded-md m-2 p-2 flex items-center bg-slate-700/50 cursor-default radioBox"
+        >
+          <input
+            name="animal"
+            type="radio"
+          />
+        </label>
+        <label
+          className="border-black border-2 rounded-md m-2 p-2 flex items-center bg-slate-700/50 cursor-default radioBox"
+        >
+          <input
+            name="animal"
+            type="radio"
+          />
+        </label>
+        <label
+          className="border-black border-2 rounded-md m-2 p-2 flex items-center bg-slate-700/50 cursor-default radioBox"
+        >
+          <input
+            name="animal"
+            type="radio"
+          />
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

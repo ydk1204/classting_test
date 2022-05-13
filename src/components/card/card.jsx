@@ -31,7 +31,6 @@ const Card = ({
     setCurrentButton(elem);
   };
 
-  // 점수 매기는 부분 엘리스 첫번째 프로젝트 처럼 객체 만들어서 각 번호마다 점수 추가하는 방식으로 변경하기
   const AnswerCheck = (elem) => {
     btnRef.current.disabled = true;
     const btn = document.querySelectorAll(".selectBox");

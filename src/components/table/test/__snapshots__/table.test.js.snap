@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders 1`] = `
+<div
+  className="flex justify-center w-full"
+>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          안녕
+        </th>
+        <th>
+          하세요
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          감사해요
+        </td>
+        <td>
+          잘있어요
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
