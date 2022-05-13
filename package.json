@@ -2,7 +2,6 @@
   "name": "classting_test",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://ydk1204.github.io/classting_test/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
